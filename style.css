@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  width: 100%;
+}
+
+.topbar {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  height: 8vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2em;
+  cursor: pointer;
+}
+
+.icon ion-icon {
+  font-size: 2em;
+}
+
+.icon p {
+  margin: 0;
+}
+
+.icon:not(:first-of-type) {
+  height: 16vh;
+}
+
+.logo {
+  height: 50%;
+}
+
+.search-wrapper {
+  display: flex;
+  height: 50%;
+  width: 30%;
+}
+
+.search-wrapper input {
+  width: 100%;
+  padding: 0 1em;
+}
+
+.icons-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.top-icon {
+  font-size: 2em;
+  padding: 0 0.5em;
+}
+
+.mic-icon {
+  display: flex;
+  align-items: center;
+}
+
+.search-btn {
+  padding: 0 0.7em;
+  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+    height: 92%;
+    flex-wrap: wrap;
+    padding: 0 100px;
+    padding-top: 50px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+  }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+}
+
+.thumbnail {
+    height: 25vh;
+}
+
+.thumbnail img {
+    height: 100%;
+}
+
+.thumb_bottom {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 27.5%;
+}
+
+.thumb_logo {
+    height: 60%;
+}
+
+.thumb_logo img {
+    height: 100%;
+}
+
+.thumb_text {
+    margin-left: 10px;
+}
+
+.thumb_text h6, p {
+    margin: 0;
+}
+
+.thumb_text h6 {
+    font-size: 1.5em;
+}
+
+.thumb_text p {
+    font-size: 0.7em;
+}
